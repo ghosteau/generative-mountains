@@ -1,0 +1,14 @@
+name: GenerativeMountains
+version: 0.1
+author: Ghosteau
+main: com.ghosteau.generativemountains.GenerativeMountains
+api-version: 1.21.1
+commands:
+  grabChunkData:
+    description: Grabs all environment data in a player's current chunk and exports it to a CSV file format.
+    usage: /<command>
+    permission: generativemountains.grabchunkdata
+  setDataPath:
+    description: Sets the path in which you want to export chunk CSV data to via grabChunkData command.
+    usage: /<command> <path>
+    permission: [generativemountains.grabchunkdata, generativemountains.setdatapath]
