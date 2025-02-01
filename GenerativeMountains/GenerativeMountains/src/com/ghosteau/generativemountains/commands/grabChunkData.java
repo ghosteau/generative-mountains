@@ -83,7 +83,6 @@ public class grabChunkData implements CommandExecutor
                 }
             }
         }
-        // Eventually have a way for people to implement their own path via commands; for now just copy and paste path into this string.
         try
         {
             exportToCSV(setDataPath.getPath());
